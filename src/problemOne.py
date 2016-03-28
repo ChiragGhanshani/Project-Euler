@@ -3,3 +3,5 @@ def check(listToCheck):
 
 def doSum(listToUse):
   return reduce(lambda x, y: x + y, check(listToUse))
+
+print(doSum(range(1, 1001)))

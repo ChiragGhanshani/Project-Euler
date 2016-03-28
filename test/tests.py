@@ -1,5 +1,5 @@
 import unittest
 
-class StockTests(unittest.TestCase):
+class EulerTests(unittest.TestCase):
   def canary_test(self):
     self.assertTrue(True)

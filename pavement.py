@@ -8,7 +8,7 @@ import shutil
 
 @task
 def test():
-  sh('nosetests --with-coverage test/stock_test.py')
+  sh('nosetests --with-coverage test/*.py')
   pass
 
 @task

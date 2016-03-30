@@ -12,3 +12,5 @@ def gen_list_under(upperBound):
 
 def gen_even_fibs_under(upperBound):
   return list(filter(lambda x: x % 2 == 0, gen_list_under(upperBound)))
+
+print(sum(gen_even_fibs_under(4000000)))

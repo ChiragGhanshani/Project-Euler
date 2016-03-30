@@ -10,4 +10,5 @@ def gen_list_under(upperBound):
       second = listOfNums[-1]
     return listOfNums
 
-print(gen_list_under(10))
+def gen_even_fibs_under(upperBound):
+  return list(filter(lambda x: x % 2 == 0, gen_list_under(upperBound)))

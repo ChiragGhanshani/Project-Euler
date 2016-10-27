@@ -15,4 +15,4 @@ class TestProbelmThree(unittest.TestCase):
     assert(problemThree.addNums(5, 6) != 10)
 
   def test_find_multiples_of_three_and_5(self):
-    assert(set(problemThree.findMults(range(0, 10))) == set([3, 5, 6, 9]))
+    assert(set(problemThree.findMults(range(0, 10))) == set([0, 3, 5, 6, 9]))
